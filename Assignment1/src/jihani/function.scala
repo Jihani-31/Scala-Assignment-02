@@ -21,8 +21,7 @@ object function {
   
   
   def sVolume(r:Float)={
-    val pi=4/3f
-    var v=pi*r*r*r
+    var v=4.0/3.0*math.Pi*r*r*r
     println(v)
   }
   
